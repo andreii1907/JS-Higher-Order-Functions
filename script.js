@@ -14,9 +14,9 @@ function consoleAllElements(elements) {
     return elements.forEach((el) => console.log(el));
 }
 
-console.log(consoleAllElements(
-    [20, 19, 27, 'buna ziua', 64, undefined, true]
-));
+// -- aici da acelasi rezultat si cu map -- //
+consoleAllElements([20, 19, 27, 'buna ziua', 64, undefined, true]);
+
 
 // ------- Exercise with Reduce ------- //
 
