@@ -21,7 +21,7 @@ consoleAllElements([20, 19, 27, 'buna ziua', 64, undefined, true]);
 // ------- Exercise with Reduce ------- //
 
 function sumNumbers(numbers) {
-    return numbers.reduce((total, num) =>  total + Math.round(num));
+    return numbers.reduce((total, num) =>  total + num);
 }
 
 console.log(sumNumbers([15, 26, 29, 44, 59]));
